@@ -1,0 +1,256 @@
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<title>Document</title>
+
+        
+		
+	</head>
+	<body>
+        <div class="container" style="background-image: linear-gradient(to bottom right, MediumVioletRed, deeppink, hotpink, pink, white)";>
+            <div class="row m-5">
+                <div class="col-md-12">
+                    <h1> RESUME GENERATOR </h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="col-md-12">
+                    <h4>Please fill your details</h4>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="col-md-7">
+                    <form method="POST">
+                        {% csrf_token %}
+
+			<div class="form-group">
+    			<label for="">Name</label>
+    			<input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+  			</div>
+
+
+  			<div class="form-group">
+    			<label for="">Phone Number</label>
+    			<input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone number">
+  			</div>
+
+
+
+  			<div class="form-group">
+    			<label for="">Email</label>
+    			<input type="email" class="form-control" id="email" name="email" placeholder="Enter email id">
+  			</div>
+
+
+
+
+              <div class="form-group">
+    			<label for="">Linkedin</label>
+    			<input type="linkedin" class="form-control" id="linkedil" name="linkedin" placeholder="Enter your linkedin profile">
+  			</div>
+
+
+
+
+  			<div class="form-group">
+    			<label for="">School</label>
+    			<input type="text" class="form-control" id="school" name="school" placeholder="Enter school name">
+  			</div>
+
+
+
+
+  			<div class="form-group">
+    			<label for="">Board</label>
+    			<input type="text" class="form-control" id="board" name="board" placeholder="Enter board">
+  			</div>
+
+
+
+
+  			<div class="form-group">
+    			<label for="">Score</label>
+    			<input type="text" class="form-control" id="score" name="score" placeholder="Enter your score">
+  			</div>
+
+
+
+
+  			<div class="form-group">
+    			<label for="">Intermediate</label>
+    			<input type="text" class="form-control" id="intermediate" name="intermediate" placeholder="Enter your Intermediate college name">
+  			</div>
+
+
+
+
+  			<div class="form-group">
+    			<label for="">Board</label>
+    			<input type="text" class="form-control" id="board1" name="board1" placeholder="Enter board">
+  			</div>
+
+
+
+  			<div class="form-group">
+    			<label for="">Percentage</label>
+    			<input type="text" class="form-control" id="percentage" name="percentage" placeholder="Enter your percentage">
+  			</div>
+
+
+
+
+
+<div class="form-group">
+    			<label for="">Degree</label>
+    			<input type="text" class="form-control" id="degree" name="degree" placeholder="Enter degree">
+  			</div>
+
+
+
+
+
+<div class="form-group">
+    			<label for="">College</label>
+    			<input type="text" class="form-control" id="college" name="college" placeholder="Enter your college name">
+  			</div>
+
+
+
+
+
+<div class="form-group">
+    			<label for="">Branch</label>
+    			<input type="text" class="form-control" id="branch" name="branch" placeholder="Enter branch">
+  			</div>
+
+
+
+
+
+<div class="form-group">
+    			<label for="">cgpa</label>
+    			<input type="text" class="form-control" id="cgpa" name="cgpa" placeholder="Enter cgpa">
+  			</div>
+
+
+
+
+
+<div class="form-group">
+    			<label for="">Skills</label>
+    			<textarea type="text" class="form-control" id="skills" name="skills" placeholder="Enter skill"></textarea>
+  			</div>
+
+			  
+
+
+
+<div class="form-group">
+    			<label for="">Projects</label>
+    			<textarea type="text" class="form-control" id="projects" name="projects" placeholder="Enter Project"></textarea>
+  			</div>
+			
+			  
+
+
+              <div class="form-group">
+    			<label for="">Certifications and Workships</label>
+    			<input type="text" class="form-control" id="certifications_workshops" name="certifications_workshops" placeholder="Enter certifications and workshops">
+  			</div>
+
+
+
+
+
+              <div class="form-group">
+    			<label for="">Internships</label>
+    			<textarea type="text" class="form-control" id="internships" name="internships" placeholder="Enter internships"></textarea>
+  			</div>
+
+
+
+              <div class="form-group">
+    			<label for="">Achievements</label>
+    			<textarea type="text" class="form-control" id="achievements" name="achievements" placeholder="Enter achievements"></textarea>
+  			</div>
+
+
+
+
+              <div class="form-group">
+    			<label for="">Strengths</label>
+    			<textarea type="text" class="form-control" id="strengths" name="strengths" placeholder="Enter strengths"></textarea>
+  			</div>
+
+
+
+
+              <div class="form-group">
+    			<label for="">Hobbies</label>
+    			<textarea type="text" class="form-control" id="hobbies" name="hobbies" placeholder="Enter hobbies"></textarea>
+  			</div>
+
+
+
+
+              <div class="form-group">
+    			<label for="">Projects</label>
+    			<textarea type="text" class="form-control" id="projects" name="projects" placeholder="Enter Project"></textarea>
+  			</div>
+
+
+
+              <div class="form-group">
+    			<label for="">Date of Birth</label>
+    			<textarea type="text" class="form-control" id="date_of_birth" name="date_of_birth" placeholder="Enter Date of Birth"></textarea>
+  			</div>
+
+
+              <div class="form-group">
+    			<label for="">Father Name</label>
+    			<textarea type="text" class="form-control" id="father_name" name="father_name" placeholder="Enter father name"></textarea>
+  			</div>
+
+
+
+
+              <div class="form-group">
+    			<label for="">Mother Name</label>
+    			<textarea type="text" class="form-control" id="mother_name" name="mother_name" placeholder="Enter mother name"></textarea>
+  			</div>
+
+
+
+
+              <div class="form-group">
+    			<label for="">Language known</label>
+    			<textarea type="text" class="form-control" id="language_known" name="language_known" placeholder="Enter language known"></textarea>
+  			</div>
+
+
+
+              
+
+
+
+
+<div class="form-group">
+    			<label for="">About You</label>
+    			<textarea type="text" class="form-control" id="about_you" name="about_you" placeholder="Enter about you"></textarea>
+  			</div>
+
+
+
+  				<button type="submit" class="btn btn-primary" action="C:\Users\User\Desktop\final\resume_builder\myapp\pdf\templates\list.html">Submit</button>
+		    </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
